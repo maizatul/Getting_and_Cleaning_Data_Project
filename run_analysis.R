@@ -4,7 +4,7 @@ getwd()
 
 ## Coursera Getting and Cleaning Data Course Project
 
-## 25th July 2015
+## 22nd July 2015
 
 # run_analysis.R File Description:
 
