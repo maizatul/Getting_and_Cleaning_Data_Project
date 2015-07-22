@@ -52,6 +52,20 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
+==============================================================================
+run_analysis.R code do the following:
+
+[1] Merges the training and test sets to create one data set, namely train/X_train.txt with test/X_test.txt, the result of which is a 10299x561 data frame, as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561"), train/subject_train.txt with test/subject_test.txt, the result of which is a 10299x1 data frame with subject IDs, and train/y_train.txt with test/y_test.txt, the result of which is also a 10299x1 data frame with activity IDs.
+
+[2] Reads features.txt and extracts only the measurements on the mean and standard deviation for each measurement. 
+
+[3] Reads activity_labels.txt and applies descriptive activity names to name the activities in the data set:
+
+
+[4]Turn activities and subjects labels into factors
+
+[5] Finally, the script creates a 2nd, independent tidy data set with the average of each measurement for each activity and each subject.
+
 Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
