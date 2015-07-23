@@ -1,8 +1,8 @@
-##########################################################################################################
 
-## Coursera Getting and Cleaning Data Course Project
 
-## 22nd July 2015
+# Coursera Getting and Cleaning Data Course Project
+
+# 22nd July 2015
 
 # run_analysis.R File Description:
 
